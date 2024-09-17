@@ -1,0 +1,99 @@
+*{
+    font-family: Inter;
+    margin: 0px
+}
+
+#Menu_de_Introdução{
+    background-color: #303030;
+    color: #FFFFFF;
+    
+}
+
+#Título_de_Introdução{
+    padding-top: 100px ;
+    margin-left: 62px;
+    width: 6000px;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+#Introdução{
+    margin-top: 5px ;
+    margin-left: 62px;
+    padding-bottom: 100px;
+    width: 2000px;
+    text-align: left;
+}
+
+#Menu_Informativo{
+    background-color: #F9F9F9;
+    padding-top: 10px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.Informação{
+    margin: 75px 75px 75px 100px;
+}
+
+#Menu_de_Apresentação{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 50px 50px 50px 75px;
+}
+
+#Texto_Apresentação{
+    margin-top: 200px;
+    margin-left: 40px;
+    font-weight: 400;
+}
+
+#formulario{
+    background-color: #303030;
+    text-align: center;
+}
+
+#titulo_formulario{
+    color: #FFFFFF;
+    padding-top: 75px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+input{
+    width: 400px;
+    height: 45px;
+    background-color: #FFFFFF;
+    margin: 20px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+button{
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 155px;
+    height: 45px;
+    background-color: #C07212;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #FFFFFF
+}
+
+button:hover{
+    background-color: #d1963d;
+    color: white;
+    transform: translateY(-5px);
+}
+
+
+
+
